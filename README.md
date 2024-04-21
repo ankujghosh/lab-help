@@ -31,7 +31,7 @@ This option finds free IP addresses within specified data VLANs.
 
 ## How It Works
 
-The script sends ICMP echo requests (pings) to each IP address within the specified range. If an IP address responds, it's considered unavailable. If an IP address does not respond within a timeout period, it's considered available and added to the list of free IPs.
+The script sends ICMP echo requests (pings) to each IP address within the specified range. If an IP address responds, it's considered available. If an IP address does not respond within a timeout period, it's considered available and added to the list of free IPs.
 
 ## Note
 
@@ -39,5 +39,3 @@ The script sends ICMP echo requests (pings) to each IP address within the specif
 - The availability of IP addresses may depend on various factors such as network configuration, firewall rules, and device availability.
 
 ---
-
-Feel free to customize the README further with additional information, usage examples, or installation instructions as needed.
